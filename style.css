@@ -14,8 +14,24 @@ body{
     left: 0;
     right: 0;
     top: 0;
-    
-    
-    
-    
+}
+
+element.style {
+    display: block;
+}
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 75px;
+    z-index: 999;
+    overflow: hidden;
+    width: 51px;
+    height: 51px;
+    border: none;
+    text-indent: 100%;
+    background-image: url(iconos/2203525_arrow_botton_menu_up_icon.png);
+    background-position: center center;
 }
